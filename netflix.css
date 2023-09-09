@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15%;
+}
+#nav #left img{
+    width: 30%;
+    padding-right: 50px;
+}
+#nav #right{
+    display: flex;
+    gap: 20px;
+}
+#nav #right select{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 3%;
+}
+#nav #right button{
+    background-color: red;
+    height: 34px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 3px;
+}
+/* #net{
+    text-align: center;
+    color: white;
+}
+#net h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#net p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+#net button{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+#net #netfl{
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    gap: 20px;
+} */
+#nav2{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+#nav2 #center1 h1{
+    font-weight: 900;
+    font-size: 300%;
+    margin: 0%;
+}
+
+#nav2 #center1 p{
+    font-weight: 100;
+    font-size: 150%;
+    margin-top: 2%;
+}
+
+#center2 #emailbar{
+    background-color: rgba(38, 38, 38, 0.662);
+    width: 300px;
+    height: 45px;
+    border: .5px solid white;
+    border-radius: 5px;
+    color: white;
+    
+}
+::placeholder{
+    color: white;
+}
+#center2 button{
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* 
+#nav #right select{
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+} */
+#enjoy{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#enjoy div{
+    width: 45%;
+}
+#enjoy #text h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#enjoy #text p{
+    font-size: 1.8rem;
+}
+#enjoy #tv{
+    position: relative;
+}
+#enjoy #tv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#enjoy #tv video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#enjoy1{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#enjoy1 div{
+    width: 45%;
+}
+#enjoy1 #text1 h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#enjoy1 #text1 p{
+    font-size: 1.8rem;
+}
+#enjoy1 #tv1{
+    position: relative;
+}
+#enjoy1 #tv1 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#enjoy1 #tv1 video{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+    width: 65%;
+    z-index: 1;
+}
+
+#enjoy2{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#enjoy2 div{
+    width: 45%;
+}
+#enjoy2 #text2 h1{
+    margin: 0px;
+    padding: 1px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+#enjoy2 #text2 p{
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+}
+#enjoy2 #tv2{
+    position: relative;
+}
+#enjoy2 #tv2 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#download{
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+#download #mobile{
+    width: 45%;
+    position: relative;
+}
+#download #mobile #img{
+    width: 100%;
+}
+#download #watch{
+    width: 45%;
+
+} 
+#download #watch h1{
+    font-size: 3.5rem;  
+}
+#download #watch p{
+    font-size: 1.5rem;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #5a5a5a;
+    border-radius: 10px;
+    width: 55%;
+    margin: auto; 
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    background-color: black;
+
+}
+#box #strange {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#box #strange img{
+    width: 4rem;
+}
+#box #strange h4{
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+#box #strange h5{
+    margin-top: 0px;
+    color: blue;
+}
+#gif img{
+    width: 3rem;
+}
+#write{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+#write #text3 h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+}
+#call{
+    margin: 4rem;
+    margin-left: 8rem;
+}
+#call a{
+    color: white;
+}
+#last #left{
+    display: block;
+    margin: auto;
+    margin-left: 8rem;
+    
+}
+#last #middle{
+    display: block;
+    margin: auto;
+    
+}
+#last #right{
+    display: block;
+    margin: auto;
+    margin-right: 36rem;
+}
+#last #left a{
+    color: white;
+    display: flex;
+}
+#last #middle a{
+    color: white;
+    display: flex;
+}
+#last #right a{
+    color: white;
+    display: flex;
+}
+#lio{
+    display: flex;
+    gap: 20px;
+    margin: 2rem;
+    margin-left: 7.9rem;
+}
+#lio select{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+#lio{
+    position: relative;
+}
+#lio i{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 1%;
+}
+/* #last #lio{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+} */
+#para p{
+    color: white;
+    margin-left: 8rem;
+}
+
